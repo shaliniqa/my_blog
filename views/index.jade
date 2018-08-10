@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  div.header
+    h1="header title"
+
+  div.middle
+    h1= "blog title ajax performed here"
+    p= "post body"
+
+  div.footer
+    a(href="#")
+    button(type="button") prev
+
+    a(href="#")
+    button(type="button") next
+
+    a#add(href="#")
+    button(type="button") add

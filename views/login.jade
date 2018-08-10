@@ -1,0 +1,19 @@
+extends layout
+
+block content
+
+  div.header
+  h1="Login Here"
+
+  div
+  form(action = "/form", method = "POST")
+    div
+      label(for = "username") USERNAME:
+      input(name = "username" type="text")
+    br
+    div
+      label(for = "password") PASSWORD:
+      input(name = "age" type = "password")
+      br
+      br
+      button(type = "submit") SUBMIT
